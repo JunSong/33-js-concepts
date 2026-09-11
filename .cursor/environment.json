@@ -1,0 +1,17 @@
+{
+  "name": "33-js-concepts",
+  "install": "node --check .cursor/preview-server.js && node --version",
+  "ports": [
+    {
+      "name": "docs preview",
+      "port": 3000
+    }
+  ],
+  "terminals": [
+    {
+      "name": "docs-preview",
+      "command": "node .cursor/preview-server.js",
+      "description": "Static documentation preview server for README.md, served at http://localhost:3000/"
+    }
+  ]
+}
